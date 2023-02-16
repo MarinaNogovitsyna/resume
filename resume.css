@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,600;1,200;1,300&family=Poppins:wght@200&family=Roboto:ital@1&display=swap');
+
+h1{
+    color: #265563;
+}
+
+.info {
+    display: flex;
+}
+
+.info .card{
+    margin-left: 40px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #e4f3f7;
+    color: #0d4f63;
+
+}
+
+h2 {
+    color: #1c7e9c;
+}
+
+
+input{
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #265563;
+    color: #265563;
+
+}
+
+.card {
+    
+    padding: 10px 30px 30px 30px;
+
+    background: #e4f3f7;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+}
+
+@media (max-width:650px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+#message {
+    border: 2px solid #53a4bd;
+    background: #c9b6f2;
+}
+
+.bg-color2 {
+    background: #ecbef7;
+}
+
+.bg-color3 {
+    background: #bdc9f2;
+}
+
+.bg-color4 {
+    background: #a1f0d8;
+}
+
+.container {
+    max-width: 900px;
+            margin: auto;
+}
+
+.avatar {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+   
+}
+
+
+a {
+    color: #1b537a;
+    text-decoration: none;
+    transition: all.2s;
+    
+}
+
+a:hover {
+    color: #bf2cba;
+    font-size: 1.3rem;
+}
+
+a:visited {
+    color: #541152;
+}
+
+a:active {
+    color: #5431b5;
+}
+
+.btn {
+    background: #cb6ad4;
+    padding: 15px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td{
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+.table td:hover{
+    background: #79e0bb;
+}
+
+.table thead:nth-child(1){
+    background: #8cbdab;
+    border: 1px solid black;
+}
+
+.boxTitul {
+    width: 33%;
+    display: inline-block;
+}
+
+
+.form h2{
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: 47%; */
+    width: 50%;
+}
+
+.form-row .form-group:last-child{
+    margin-right: 0px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+
+}
+
+.form-group input, .form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px colid black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
